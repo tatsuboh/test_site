@@ -1,0 +1,65 @@
+/*
+Theme Name: My Custom Theme
+Theme URI: http://example.com/my-custom-theme
+Author: Your Name
+Author URI: http://example.com
+Description: A custom theme for my website.
+Version: 1.0
+*/
+
+/* ベーススタイルの更新 */
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* ヘッダー */
+header {
+    background: #FFB7C5;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* ナビゲーションメニュー */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #ffffff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #dddddd;
+}
+
+/* コンテンツエリア */
+#content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* フッター */
+footer {
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* レスポンシブデザイン */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+}
